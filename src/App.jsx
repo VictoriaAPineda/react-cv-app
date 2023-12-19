@@ -8,7 +8,7 @@ export default function App(){
 
   // By default should be able to edit form
   // Submission will make all fields uneditable, Edit will allow the fields to be editable.
-  const [mode, setMode] = useState('editing'); // starts out with user filling out form
+  const [mode, setMode] = useState('editing');
 
   function handleSubmit(e){
     e.preventDefault();
